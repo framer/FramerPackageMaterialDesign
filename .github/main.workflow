@@ -16,7 +16,7 @@ action "Publish Filter" {
 
 action "Publish" {
   uses = "framer/bridge@master"
-  args = ["publish", "--yes"]
+  args = ["publish", "--yes", "--public"]
   needs = ["Build", "Publish Filter"]
   secrets = ["FRAMER_TOKEN"]
 }
