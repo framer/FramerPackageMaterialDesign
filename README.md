@@ -1,6 +1,6 @@
-## Material UI
+## Material Design
 
-Material UI is one of the biggest libraries that contains React components that implement Google's Material Design.
+Material Design package is based on Material UI library — one of the biggest libraries that contains React components that implement Google's Material Design.
 
 ## Contents
 
@@ -10,3 +10,6 @@ This package contains 4 fully interactive Material UI components converted to wo
 - Switch
 - Input
 - Sheet
+
+## Changelog
+- Update Framer library version

@@ -158,11 +158,6 @@ fbjs@^0.8.1:
     setimmediate "^1.0.5"
     ua-parser-js "^0.7.18"
 
-"framer@^0.7.2 || ^1":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/framer/-/framer-1.0.8.tgz#14d8d7cc8ce7ad705fd1c7234ec94c80c8f8ca98"
-  integrity sha512-Jpq7f5skA6Zf+PhReNrtmTsDuyM9Wc3wKfcTndM1P6bjxb6htol8KeP+922iPgYsYNi3z24HgFQbVsO78ZCl5A==
-
 hoist-non-react-statics@^2.3.1, hoist-non-react-statics@^2.5.0:
   version "2.5.5"
   resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-2.5.5.tgz#c5903cf409c0dfd908f388e619d86b9c1174cb47"
