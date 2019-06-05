@@ -12,34 +12,35 @@ interface Props {
   paddingBottom?: number;
   paddingLeft?: number;
   elevation:
-  | '1'
-  | '2'
-  | '3'
-  | '4'
-  | '5'
-  | '6'
-  | '7'
-  | '8'
-  | '9'
-  | '10'
-  | '12'
-  | '13'
-  | '14'
-  | '15'
-  | '16'
-  | '17'
-  | '18'
-  | '19'
-  | '20'
-  | '11'
-  | '22'
-  | '23'
-  | '24';
+    | '1'
+    | '2'
+    | '3'
+    | '4'
+    | '5'
+    | '6'
+    | '7'
+    | '8'
+    | '9'
+    | '10'
+    | '12'
+    | '13'
+    | '14'
+    | '15'
+    | '16'
+    | '17'
+    | '18'
+    | '19'
+    | '20'
+    | '11'
+    | '22'
+    | '23'
+    | '24';
   text: string;
   title: string;
 
   onClick: () => void;
-  width: number; height: number
+  width: number;
+  height: number;
 }
 
 export class Paper extends React.Component<Props> {
@@ -60,8 +61,8 @@ export class Paper extends React.Component<Props> {
     padding: {
       type: ControlType.FusedNumber,
       title: 'Padding',
-      splitKey: 'paddingSplit',
-      splitLabels: ['Common', 'Separate'],
+      toggleKey: 'paddingSplit',
+      toggleTitles: ['Common', 'Separate'],
       valueKeys: ['paddingTop', 'paddingRight', 'paddingBottom', 'paddingLeft'],
       valueLabels: ['Top', 'Right', 'Bottom', 'Left'],
       min: 0,

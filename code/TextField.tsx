@@ -15,7 +15,7 @@ interface Props {
 
   onChange: (text: string) => void;
   width: number;
-  height: number
+  height: number;
 }
 
 export class TextField extends React.Component<Props> {

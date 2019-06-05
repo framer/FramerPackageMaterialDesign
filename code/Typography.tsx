@@ -5,32 +5,32 @@ import { default as MuiTypography } from '@material-ui/core/Typography';
 interface Props {
   align: 'inherit' | 'left' | 'center' | 'right' | 'justify';
   color:
-  | 'inherit'
-  | 'primary'
-  | 'textSecondary'
-  | 'secondary'
-  | 'error'
-  | 'default';
+    | 'inherit'
+    | 'primary'
+    | 'textSecondary'
+    | 'secondary'
+    | 'error'
+    | 'default';
   gutterBottom: boolean;
   noWrap: boolean;
   paragraph: boolean;
   variant:
-  | 'display4'
-  | 'display3'
-  | 'display2'
-  | 'display1'
-  | 'headline'
-  | 'title'
-  | 'subheading'
-  | 'body2'
-  | 'body1'
-  | 'caption'
-  | 'button';
+    | 'display4'
+    | 'display3'
+    | 'display2'
+    | 'display1'
+    | 'headline'
+    | 'title'
+    | 'subheading'
+    | 'body2'
+    | 'body1'
+    | 'caption'
+    | 'button';
   text: string;
 
   onClick: () => void;
   width: number;
-  height: number
+  height: number;
 }
 
 export class Typography extends React.Component<Props> {

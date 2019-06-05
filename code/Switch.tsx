@@ -10,7 +10,7 @@ interface Props {
 
   onChange: (checked: boolean) => void;
   width: number;
-  height: number
+  height: number;
 }
 interface State {
   checked: boolean;

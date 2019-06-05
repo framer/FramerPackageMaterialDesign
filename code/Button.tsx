@@ -11,7 +11,8 @@ interface Props {
   disabled: boolean;
   disableRipple: boolean;
   fullWidth: boolean;
-  width: number; height: number;
+  width: number;
+  height: number;
   onClick: () => void;
 }
 
@@ -24,7 +25,7 @@ export class Button extends React.Component<Props> {
     size: 'medium',
     variant: 'raised',
     href: '',
-    text: 'Click me',
+    text: 'Click',
     disabled: false,
     disableRipple: false,
     fullWidth: false,

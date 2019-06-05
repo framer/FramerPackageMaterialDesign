@@ -12,4 +12,6 @@ This package contains 4 fully interactive Material UI components converted to wo
 - Sheet
 
 ## Changelog
+
 - Update Framer library version
+- Fix for Paper padding (library fused number key)
